@@ -1,0 +1,17 @@
+.__sidebar{
+    box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+    .__menu-container{
+        padding: 0 20px;
+        ._li{
+            margin-top: 5px;
+            background-color: white;
+            cursor: pointer;
+
+        }
+        ._li:hover{
+            --tw-bg-opacity: 1;
+            background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+           
+        }
+    }
+}
