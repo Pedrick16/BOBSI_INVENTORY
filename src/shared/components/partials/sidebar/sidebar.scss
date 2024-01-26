@@ -32,15 +32,20 @@
 }
 
 
-.__hide{
-    width: 39px !important;
+.__show{
+    width: 90px !important;
+
+    grid-template-rows:  auto auto 1fr;
+    
+
+ 
 
     span{
         display: none !important;
     }
 
     .__icon{
-        left: 40px;
+        left: 90px;
     }
 
     img{
@@ -48,6 +53,10 @@
     }
 
     .__menu-container{  
-        display: none !important;
+        padding-top: 100px;
+          
+        
+     
+        
     }
 }

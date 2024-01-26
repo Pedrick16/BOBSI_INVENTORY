@@ -27,16 +27,16 @@ const Sidebar = () => {
   return (
     <div className={`__sidebar ${isMenuOpen ? "__show" : "__hide"} w-[300px] h-screen bg-slate-200 grid grid-rows-[auto,auto,auto,1fr]`}>
          
-          {isMenuOpen ? (<IoClose size={50}  className='__icon cursor-pointer  text-slate-400'  onClick={handleIconClick}/> ) : (
-            <FiMenu size={50}  className='__icon cursor-pointer text-slate-400' onClick={handleIconClick} />
+          {isMenuOpen ? (<FiMenu size={50}  className='__icon cursor-pointer  text-slate-400'  onClick={handleIconClick}/> ) : (
+            < IoClose  size={50}  className='__icon cursor-pointer text-slate-400' onClick={handleIconClick} />
           )}
 
         
        <div className='px-[20px] pt-[20px] '>
        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=334,fit=crop,q=95/m2WbBNyqvMInW7G9/bobsi-sample-web-YZ9naB97xzfo3OOg.jpg"  alt="" />
        </div>
-       <div className="flex  justify-center pt-2 ">
-            <span className='text-center text-1xl font-bold text-[#050505]'>BOBSI INVENTORY</span>
+       <div className="flex   justify-center pt-2 " >
+            <span className='text-center text-1xl font-bold text-[#050505]'>BOBSI INTRANET</span>
        </div>
        
       

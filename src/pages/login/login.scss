@@ -17,8 +17,17 @@
         
     
     }
-    .__input{
+    input{
         border-bottom: 1px solid gray;
+
+    }
+
+    input:focus {
+       
+        border-color: #007bff; /* Change border color to blue when focused */
+        outline: none; /* Remove the default outline (focus indicator) */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow when focused */
+      
     }
 
 

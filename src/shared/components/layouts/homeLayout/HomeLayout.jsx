@@ -10,7 +10,7 @@ const HomeLayout = () => {
       duration: 2000,
       easing: 'ease-in-out',
       reset: true, // This resets the properties when scrolling down
-      origin: 'right', // You can change the origin as needed
+      origin: 'left', // You can change the origin as needed
       distance: '70px', // You can adjust the distance
       opacity: 0,
       afterReveal: (domEl) => {

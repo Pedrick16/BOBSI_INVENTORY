@@ -64,14 +64,14 @@ const Login = () => {
       <div className="__image-overlay flex items-center justify-center  ">
         <div className="_login-container h-[auto] w-[400px] bg-white p-[40px] grid grid-rows-[1fr,auto,1fr] rounded-[5px]">
           <div className="mb-[50px] text-center text-2xl font-bold">
-            BOBSI INVENTORY
+            BOBSI INTRANET
           </div>
           <div className=" flex flex-col">
             <label htmlFor="">Username</label>
             <input
               type="text"
               placeholder="Enter your username"
-              className=" __input  h-[40px] p-5"
+              className="   h-[40px] p-5"
               ref={usernameRef}
             />
 
@@ -81,7 +81,7 @@ const Login = () => {
             <input
               type="password"
               placeholder="Enter your Password "
-              className="  __input h-[40px] p-5"
+              className=" h-[40px] p-5"
               ref={passwordRef}
             />
 
