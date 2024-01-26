@@ -1,5 +1,20 @@
 .__sidebar{
     box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+
+
+    .__icon{
+        
+        
+        position: fixed;
+
+        left: 300px;
+        
+ 
+        
+        padding-top: 20px;
+      
+     
+    }
     .__menu-container{
         padding: 0 20px;
         ._li{
@@ -13,5 +28,26 @@
             background-color: rgb(248 250 252 / var(--tw-bg-opacity));
            
         }
+    }
+}
+
+
+.__hide{
+    width: 39px !important;
+
+    span{
+        display: none !important;
+    }
+
+    .__icon{
+        left: 40px;
+    }
+
+    img{
+        display: none !important;
+    }
+
+    .__menu-container{  
+        display: none !important;
     }
 }

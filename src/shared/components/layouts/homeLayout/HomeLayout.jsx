@@ -37,13 +37,13 @@ const HomeLayout = () => {
 
 
   return (
-    <div  className='h-screen w-screen grid grid-cols-[300px,1fr]'>
+    <div  className='h-screen w-screen grid grid-cols-[auto,1fr]'>
         <div className='_sidebar'>
         <Sidebar />
         </div>
        
      
-        <div className='grid grid-rows-[60px,1fr] _top'>
+        <div className='grid grid-rows-[60px,1fr]'>
            
             <Navbar/>
 
